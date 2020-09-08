@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="559px" preserveAspectRatio="none" style="width:538px;height:559px;" version="1.1" viewBox="0 0 538 559" width="538px" zoomAndPan="magnify"><defs><filter height="300%" id="flnuauvrijsty" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[92e429084d4b89930ac97890723c9c9c]
+cluster The Cloud--><path d="M360.7318,24.7294 C363.8235,19.2655 368.9923,18.908 372.5284,24.244 C376.2845,17.5368 382.4292,19.3696 385.6274,24.8438 C388.1924,20.5367 392.8622,20.4135 395.7972,24.3895 C398.6801,18.7218 405.1946,17.5565 409.0529,23.2516 C411.614,17.5567 415.8036,18.2095 419.2116,22.3794 C423.6026,17.3231 427.734,16.3566 431.8346,22.701 C436.4038,16.7321 441.248,17.8945 444.0305,24.442 C447.8366,19.545 451.7078,17.9554 455.7474,24.1964 C460.2969,18.7397 464.6666,18.3522 468.4658,24.9857 C470.7267,19.8453 475.6879,20.1637 478.4581,24.4457 C482.3151,17.5982 488.1051,17.9634 491.4385,24.9374 C495.2338,20.1656 498.7373,19.1934 502.3953,25.0785 C508.4508,26.7053 509.3138,30.2656 505.871,35.1653 C511.1543,37.5944 512.2678,41.069 508.74,45.8614 C514.4339,47.673 516.61,53.3078 511.9521,57.8849 C515.9766,62.6116 514.7956,66.0244 509.2196,68.2104 C513.4976,71.7625 511.5904,76.2528 506.9113,77.6039 C511.382,83.1943 508.0702,87.6447 502.014,88.5067 C499.4075,93.4239 494.6215,93.649 491.9182,88.6047 C489.4575,93.9935 484.1626,95.6754 480.0839,90.4002 C477.0012,95.5474 471.9321,96.6577 468.4772,90.7925 C464.3634,96.8757 459.167,96.9752 455.5718,90.2692 C452.5033,96.3653 447.9346,96.219 444.3527,90.768 C441.1493,96.9528 436.5993,96.6229 432.8385,91.327 C428.8425,96.8165 424.7006,97.9291 420.3595,91.6944 C416.2387,96.3668 411.0679,96.3634 408.7031,89.8624 C405.114,95.6609 400.6483,97.0551 396.1861,90.7665 C392.0197,95.6166 388.208,95.7799 385.347,89.4957 C381.3629,95.4067 377.2712,95.4724 373.0813,89.712 C369.2509,94.2118 364.7806,94.5442 361.4988,89.0747 C352.8577,84.966 351.9001,79.4574 359.758,73.5041 C350.6839,71.3889 348.7356,63.5005 355.5479,57.2663 C348.7793,49.9248 349.2584,44.021 359.3233,40.4614 C352.1727,35.1344 351.7795,28.6147 360.7318,24.7294 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="394" y="42.5352">The Cloud</text><!--MD5=[23adf4823fe9df59ec3152e6248087fc]
+cluster Laptop--><rect fill="#FFFFFF" filter="url(#flnuauvrijsty)" height="405" style="stroke: #000000; stroke-width: 1.5;" width="513" x="14" y="143"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="49" x="246" y="158.5352">Laptop</text><!--MD5=[7c8be4399a98ce4af30ebb340331e2bb]
+cluster acquire.py--><rect fill="#FFFFFF" filter="url(#flnuauvrijsty)" height="370" style="stroke: #000000; stroke-width: 1.5;" width="351" x="168" y="170"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="72" x="307.5" y="185.5352">acquire.py</text><!--MD5=[9f6bcf32be31ff523d233f69691d9716]
+cluster explore.ipynb--><rect fill="#FFFFFF" filter="url(#flnuauvrijsty)" height="71" style="stroke: #000000; stroke-width: 1.5;" width="138" x="22" y="170"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="96" x="43" y="185.5352">explore.ipynb</text><!--MD5=[7468467f3b6b392f1d176d828c753b77]
+entity db--><path d="M360.5,53 C360.5,43 431,43 431,43 C431,43 501.5,43 501.5,53 L501.5,78.4883 C501.5,88.4883 431,88.4883 431,88.4883 C431,88.4883 360.5,88.4883 360.5,78.4883 L360.5,53 " fill="#FEFECE" filter="url(#flnuauvrijsty)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M360.5,53 C360.5,63 431,63 431,63 C431,63 501.5,63 501.5,53 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="121" x="370.5" y="80.5352">Codeup Cloud DB</text><!--MD5=[a5903ae47d68c89251e1f90161be5fb8]
+entity get_data--><rect fill="#FEFECE" filter="url(#flnuauvrijsty)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="79" x="210.5" y="197"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="220.5" y="220.5352">get_data</text><!--MD5=[e915981d585e9fe64b5e0c4783cb6470]
+entity get_data_from_sql--><rect fill="#FEFECE" filter="url(#flnuauvrijsty)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="146" x="358" y="197"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="126" x="368" y="220.5352">get_data_from_sql</text><!--MD5=[daabe3b1242fada8cfc357aef43f67d9]
+entity get_data_from_csv--><rect fill="#FEFECE" filter="url(#flnuauvrijsty)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="147" x="176.5" y="496"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="127" x="186.5" y="519.5352">get_data_from_csv</text><!--MD5=[6f85a096e8dbdd62e3287a7f51d83940]
+entity data.csv--><rect fill="#FEFECE" filter="url(#flnuauvrijsty)" height="36.4883" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="75" x="435.5" y="496"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="55" x="445.5" y="519.5352">data.csv</text><!--MD5=[db08473b4c8d53d2e14d2fb3d6a7ca7f]
+entity nb1--><rect fill="#FEFECE" filter="url(#flnuauvrijsty)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="122" x="30" y="197"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="40" y="220.5352">df = get_data()</text><!--MD5=[ff92913c9b8615b77154c987b6bb1b25]
+link nb1 to get_data--><path d="M152.1777,215 C169.7233,215 187.2689,215 204.8145,215 " fill="none" id="nb1-&gt;get_data" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="210.2597,215,201.2597,211,205.2597,215,201.2597,219,210.2597,215" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[143dd077d66655a99a8db22ce3c7cd21]
+link get_data to get_data_from_csv--><path d="M250,233.3142 C250,249.4276 250,273.5208 250,294.5 C250,294.5 250,294.5 250,434.5 C250,453.3485 250,474.7106 250,490.541 " fill="none" id="get_data-&gt;get_data_from_csv" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="250,495.6858,254,486.6858,250,490.6858,246,486.6858,250,495.6858" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="251" y="369.5684">if "data.csv" exists</text><!--MD5=[6b1c805610c187b225f1cda20b7be5f5]
+link get_data to get_data_from_sql--><path d="M289.7212,215 C308.2184,215 330.9001,215 352.6314,215 " fill="none" id="get_data-&gt;get_data_from_sql" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="357.8369,215,348.8369,211,352.8369,215,348.8369,219,357.8369,215" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="25" x="311.25" y="208.5684">else</text><!--MD5=[f24f4c36601399693a2044677ad17a58]
+link get_data_from_csv to data.csv--><path d="M323.6366,514 C359.0151,514 400.1647,514 430.3034,514 " fill="none" id="get_data_from_csv-&gt;data.csv" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="435.4203,514,426.4203,510,430.4203,514,426.4203,518,435.4203,514" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="75" x="342" y="507.5684">pd.read_csv</text><!--MD5=[29e96e835f37a329910bcb6f203ee47d]
+reverse link db to get_data_from_sql--><path d="M431,93.272 C431,123.5037 431,170.9747 431,196.7945 " fill="none" id="db&lt;-get_data_from_sql" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="431,88.2058,427,97.2058,431,93.2058,435,97.2058,431,88.2058" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="73" x="432" y="131.5684">pd.read_sql</text><!--MD5=[c0f1fd82996c40fe08af32d950af7e0c]
+link get_data_from_sql to data.csv--><path d="M435.3323,233.1965 C438.7695,249.2345 443,273.2832 443,294.5 C443,294.5 443,294.5 443,434.5 C443,454.5536 451.459,475.7265 459.3935,491.1754 " fill="none" id="get_data_from_sql-&gt;data.csv" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="461.8291,495.7786,461.1552,485.9528,459.4905,491.3592,454.0842,489.6945,461.8291,495.7786" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="444" y="369.5684">pd.to_csv</text><!--MD5=[1e95297a1fadad51059c7e8c7c5b2b84]
+@startuml
+
+cloud "The Cloud" {
+    database "Codeup Cloud DB" as db
+}
+rectangle Laptop {
+    rectangle acquire.py {
+        rectangle get_data
+        rectangle get_data_from_sql
+        rectangle get_data_from_csv
+        storage data.csv
+    }
+    rectangle explore.ipynb {
+        rectangle "df = get_data()" as nb1
+    }
+}
+
+nb1 -> get_data
+get_data -down-> get_data_from_csv: if "data.csv" exists
+get_data -right-> get_data_from_sql: else
+get_data_from_csv -right-> data.csv: pd.read_csv
+get_data_from_sql -up-> db: pd.read_sql
+get_data_from_sql -down-> data.csv: pd.to_csv
+
+@enduml
+
+PlantUML version 1.2020.07(Sun Apr 19 06:42:40 CDT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_212-b03
+Operating System: Mac OS X
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

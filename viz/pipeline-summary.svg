@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="354px" preserveAspectRatio="none" style="width:891px;height:354px;" version="1.1" viewBox="0 0 891 354" width="891px" zoomAndPan="magnify"><defs><filter height="300%" id="fr7j85g8y1hop" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[fb328efc308957fb7a58023446b50fc4]
+entity Plan--><rect fill="#FEFECE" filter="url(#fr7j85g8y1hop)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="66" x="6" y="8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="16" y="31.5352">1. Plan</text><!--MD5=[0a363c0ff28024701194dd3c9ab64e56]
+entity Acquire--><rect fill="#FEFECE" filter="url(#fr7j85g8y1hop)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="90" x="107" y="8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="117" y="31.5352">2. Acquire</text><!--MD5=[e841542a7091b9d5e3e58f34dec4dd37]
+entity Prepare--><rect fill="#FEFECE" filter="url(#fr7j85g8y1hop)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="90" x="232" y="8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="242" y="31.5352">3. Prepare</text><!--MD5=[e30c707efd7f18ab65f67a8f41e32c22]
+entity Explore--><rect fill="#FEFECE" filter="url(#fr7j85g8y1hop)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="90" x="357" y="8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="367" y="31.5352">4. Explore</text><!--MD5=[d98cb1d0eeb2b90d1ef52cfc0fcf4fea]
+entity Model--><rect fill="#FEFECE" filter="url(#fr7j85g8y1hop)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="79" x="482.5" y="8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="492.5" y="31.5352">5. Model</text><!--MD5=[406e88816437d78a78512971965d6286]
+entity Deliver--><rect fill="#FEFECE" filter="url(#fr7j85g8y1hop)" height="36.4883" style="stroke: #000000; stroke-width: 1.5;" width="84" x="597" y="8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="607" y="31.5352">6. Deliver</text><!--MD5=[7468467f3b6b392f1d176d828c753b77]
+entity db--><path d="M194.5,220.5 C194.5,210.5 236,210.5 236,210.5 C236,210.5 277.5,210.5 277.5,220.5 L277.5,245.9883 C277.5,255.9883 236,255.9883 236,255.9883 C236,255.9883 194.5,255.9883 194.5,245.9883 L194.5,220.5 " fill="#FEFECE" filter="url(#fr7j85g8y1hop)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M194.5,220.5 C194.5,230.5 236,230.5 236,230.5 C236,230.5 277.5,230.5 277.5,220.5 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="204.5" y="248.0352">Cloud DB</text><!--MD5=[bda528c55d2f5ebe63cfd66ff3bfcf2a]
+entity pipe--><path d="M339.5,316 L438.5,316 C443.5,316 443.5,329.2441 443.5,329.2441 C443.5,329.2441 443.5,342.4883 438.5,342.4883 L339.5,342.4883 C334.5,342.4883 334.5,329.2441 334.5,329.2441 C334.5,329.2441 334.5,316 339.5,316 " fill="#FEFECE" filter="url(#fr7j85g8y1hop)" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M438.5,316 C433.5,316 433.5,329.2441 433.5,329.2441 C433.5,342.4883 438.5,342.4883 438.5,342.4883 " fill="none" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="339.5" y="334.5352">Data Pipeline</text><!--MD5=[03f1da903f925427d8b244432c7b740f]
+entity viz--><path d="M464.7917,112.4668 C468.8546,104.9354 474.1179,105.4244 478.7298,111.9213 C481.9912,106.1181 488.1435,105.9047 491.5839,111.7233 C494.8555,104.3083 500.3087,103.9963 504.9604,110.3859 C509.3537,103.4158 516.0212,102.508 519.93,110.8592 C522.8637,105.0953 528.4168,105.7726 531.6377,110.5398 C535.9984,103.1939 542.6893,105.0411 546.3856,111.2621 C550.5831,105.9948 557.4463,105.9543 559.9044,113.1489 C563.7647,107.2375 569.6842,106.6317 573.9001,112.7347 C582.4629,113.8412 587.9996,120.7953 580.9884,128.7813 C584.8638,136.5346 583.7659,141.7108 574.0804,142.7649 C571.1924,150.9437 566.6503,151.6645 560.5381,145.8953 C557.0923,153.1885 549.8577,152.055 546.0128,146.3411 C541.4479,153.8806 536.8406,152.3435 532.2185,146.3995 C528.5082,153.4968 523.3876,154.6606 518.2174,147.8715 C514.5566,153.2977 509.5525,153.7143 505.5086,148.3216 C500.7475,153.0627 496.3189,153.5617 492.9426,146.8078 C488.04,154.1482 480.3409,153.5775 477.4619,144.8573 C471.5795,151.1435 467.3821,148.9038 463.6179,142.5393 C455.6958,142.1473 450.998,137.2334 455.0644,129.1708 C450.117,119.9846 455.1601,113.1632 464.7917,112.4668 " fill="#FEFECE" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="470.5" y="132.5352">Visualizations</text><!--MD5=[0de2a6990e7d3c430085ccd051434cb7]
+entity insight--><path d="M613.3988,219.8259 C615.9638,213.7893 619.934,213.2086 624.7765,217.2565 C628.2724,212.4522 633.434,211.3207 636.4051,217.7975 C638.2201,212.4323 642.7807,212.207 646.2423,216.0356 C649.801,212.0078 655.5415,211.6781 657.4392,217.8576 C660.8776,213.0845 665.2059,211.9358 668.7597,217.734 C673.2738,212.2606 676.7886,212.8011 680.0842,218.9238 C689.2122,221.5851 692.5899,225.9456 687.4225,235.0942 C693.1656,242.058 688.8882,249.3792 680.9515,250.6537 C678.8116,256.0935 674.8219,257.6123 670.1207,253.5835 C666.9415,259.1922 662.5858,259.9254 658.0572,255.1513 C656.5309,261.275 652.476,263.9758 646.7206,259.8113 C641.5438,263.8499 637.8058,261.6187 636.6306,255.74 C631.2901,260.1715 626.7708,259.7882 623.9358,252.924 C619.8968,256.5061 615.7822,255.2207 614.1123,250.2142 C605.5253,246.5586 604.7721,239.6957 610.9753,233.2975 C604.7384,227.4909 605.2324,223.0415 613.3988,219.8259 " fill="#FEFECE" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="619" y="238.5352">Insights</text><!--MD5=[c4dc8f87c002f05077247743641b0cea]
+entity slides--><polygon fill="#FEFECE" filter="url(#fr7j85g8y1hop)" points="716.5,8,716.5,44.4883,869.5,44.4883,869.5,18,859.5,8,716.5,8" style="stroke: #000000; stroke-width: 1.5;"/><path d="M859.5,8 L859.5,18 L869.5,18 " fill="#FEFECE" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="726.5" y="31.5352">Slides/Presentation</text><!--MD5=[76aeba0ab875879ea5d21554d0007a3a]
+entity model--><rect fill="#FEFECE" filter="url(#fr7j85g8y1hop)" height="36.4883" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="85" x="615.5" y="109"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="625.5" y="132.5352">ML Model</text><!--MD5=[f61cbc9e0d95a3dcd9561824b37a9b29]
+link Plan to Acquire--><path d="M72.1055,26 C81.9387,26 91.7719,26 101.6051,26 " fill="none" id="Plan-&gt;Acquire" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="106.7472,26,97.7472,22,101.7472,26,97.7472,30,106.7472,26" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[610b09ed730df2500a26dce2c1d55fdb]
+link Acquire to Prepare--><path d="M197.4102,26 C207.2059,26 217.0016,26 226.7973,26 " fill="none" id="Acquire-&gt;Prepare" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="231.9198,26,222.9198,22,226.9198,26,222.9198,30,231.9198,26" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f2d2f1ff6040fbb834bcf36938d62498]
+link Prepare to Explore--><path d="M322.4102,26 C332.2059,26 342.0016,26 351.7973,26 " fill="none" id="Prepare-&gt;Explore" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="356.9198,26,347.9198,22,351.9198,26,347.9198,30,356.9198,26" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[36031034a85f7d55ca9117e07fc5dc43]
+link Explore to Model--><path d="M447.4688,26 C457.3856,26 467.3025,26 477.2194,26 " fill="none" id="Explore-&gt;Model" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="482.4053,26,473.4053,22,477.4053,26,473.4053,30,482.4053,26" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bb8633d50a31fb12e7ba8e8188e094aa]
+link Model to Deliver--><path d="M561.7617,26 C571.6962,26 581.6307,26 591.5652,26 " fill="none" id="Model-&gt;Deliver" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="596.7603,26,587.7603,22,591.7603,26,587.7603,30,596.7603,26" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[59ffd2cfa88f7432ad82e43b7bbd8284]
+link Acquire to db--><path d="M159.3075,44.0078 C174.0278,80.2828 207.3315,162.3527 224.8108,205.4266 " fill="none" id="Acquire-&gt;db" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="226.7592,210.2281,227.0815,200.3845,224.8791,205.595,219.6686,203.3927,226.7592,210.2281" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[894f459a61b74633bd9c3d28d0c5454b]
+link Acquire to pipe--><path d="M148.0511,44.2341 C140.0118,86.5747 126.5054,192.7497 177,256 C196.3312,280.2146 273.6016,302.5427 329.2759,315.9666 " fill="none" id="Acquire-&gt;pipe" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="334.2556,317.1576,326.4328,311.1739,329.3927,315.9946,324.572,318.9545,334.2556,317.1576" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[15fc31d8d51bc2dd1b36c7c8bb6d9dcb]
+link Prepare to pipe--><path d="M283.6707,44.0466 C303.5615,97.8584 362.3157,256.8094 382.2759,310.8089 " fill="none" id="Prepare-&gt;pipe" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="384.0838,315.7,384.7153,305.8714,382.3502,311.0101,377.2115,308.6451,384.0838,315.7" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[19d54e7601a21b9611a550f70b2dc04c]
+link Explore to viz--><path d="M422.7385,44.0568 C440.7002,59.6959 466.93,82.5339 487.3206,100.2878 " fill="none" id="Explore-&gt;viz" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="491.3167,103.7672,487.1558,94.8405,487.5458,100.4839,481.9024,100.8739,491.3167,103.7672" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ee32d4c528c1e7ce5a9531382abaac0d]
+link Explore to insight--><path d="M402.4658,44.396 C404.1037,70.9532 410.8868,120.1169 438,150 C480.0955,196.3961 551.6009,217.2689 598.8181,226.3675 " fill="none" id="Explore-&gt;insight" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="603.8802,227.3158,595.7707,221.7269,598.9657,226.3951,594.2975,229.5901,603.8802,227.3158" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[dcc509eb4921041b05f20ad00330234e]
+link Model to model--><path d="M546.3141,44.0568 C569.5705,61.3281 604.6493,87.3793 629.2735,105.6664 " fill="none" id="Model-&gt;model" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="633.4379,108.759,628.5972,100.1818,629.4237,105.778,623.8276,106.6045,633.4379,108.759" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e21c78d8b4b7ddbc0ee340c3b216af2f]
+link Deliver to slides--><path d="M681.1094,26 C691.0346,26 700.9598,26 710.885,26 " fill="none" id="Deliver-&gt;slides" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="716.0752,26,707.0752,22,711.0752,26,707.0752,30,716.0752,26" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[744bb1261d136a82f6531b26b746f8c3]
+link db to pipe--><path d="M271.8717,255.5077 C299.9762,273.1419 338.3868,297.2427 363.4387,312.9616 " fill="none" id="db-&gt;pipe" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="367.9555,315.7956,362.4579,307.6239,363.7202,313.1381,358.206,314.4004,367.9555,315.7956" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[12b2f3be448e370596fe5af72332f02c]
+reverse link viz to pipe--><path d="M500.4032,154.5547 C472.3281,198.5173 418.4417,282.8975 397.5608,315.5947 " fill="none" id="viz&lt;-pipe" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="503.2021,150.172,494.9869,155.6043,500.511,154.386,501.7292,159.9101,503.2021,150.172" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bf14a389fd805516c6f9975213fea284]
+reverse link insight to pipe--><path d="M599.0567,250.5353 C548.5867,269.3878 469.5076,298.9271 424.1455,315.8717 " fill="none" id="insight&lt;-pipe" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="603.8495,248.7449,594.0188,248.1473,599.1656,250.4946,596.8183,255.6415,603.8495,248.7449" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4eff86e22fb76d4d174a7a4894fc8905]
+reverse link model to pipe--><path d="M629.4358,148.4497 C573.718,190.2898 452.0127,281.6819 406.5736,315.8035 " fill="none" id="model&lt;-pipe" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="633.6536,145.2824,624.0549,147.4883,629.6554,148.2848,628.8589,153.8853,633.6536,145.2824" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[632d12e6b4c85eab199e3b2bcd77c871]
+reverse link slides to viz--><path d="M738.9389,45.8552 C693.4123,62.5759 628.2611,86.5041 580.5025,104.0445 " fill="none" id="slides&lt;-viz" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="743.8355,44.0568,734.0082,43.405,739.1421,45.7807,736.7664,50.9145,743.8355,44.0568" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[cd8dcb2f21d553c60f3645381d07d037]
+reverse link slides to insight--><path d="M780.7435,48.8259 C766.7271,74.2791 742.534,116.2986 718,150 C702.5067,171.2826 682.7947,193.7387 667.9145,209.9187 " fill="none" id="slides&lt;-insight" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="783.24,44.2718,775.4061,50.2409,780.8364,48.6562,782.4211,54.0866,783.24,44.2718" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[706eb8c91b892c97a247bf3909ab465a]
+reverse link model to insight--><path d="M655.3132,150.7336 C653.3116,168.4145 650.5933,192.4257 648.6103,209.9424 " fill="none" id="model&lt;-insight" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="655.9098,145.4638,650.9228,153.9567,655.3474,150.4321,658.872,154.8566,655.9098,145.4638" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7d11e0aec3ba53dc40a4bbfcd0d6d135]
+reverse link slides to model--><path d="M764.7446,47.1392 C740.3754,65.371 705.5499,91.4256 682.3815,108.759 " fill="none" id="slides&lt;-model" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="768.8647,44.0568,759.2621,46.2454,764.8612,47.0521,764.0545,52.6511,768.8647,44.0568" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ebfbfbc8a0fd127358e71d9bc83905f3]
+@startuml
+rectangle Plan as "1. Plan"
+rectangle Acquire as "2. Acquire"
+rectangle Prepare as "3. Prepare"
+rectangle Explore as "4. Explore"
+rectangle Model as "5. Model"
+rectangle Deliver as "6. Deliver"
+database db as "Cloud DB"
+queue pipe as "Data Pipeline"
+cloud viz as "Visualizations"
+cloud insight as "Insights"
+file slides as "Slides/Presentation"
+storage model as "ML Model"
+
+Plan -right-> Acquire
+Acquire -right-> Prepare
+Prepare -right-> Explore
+Explore -right-> Model
+Model -right-> Deliver
+
+Acquire -down-> db
+Acquire -down-> pipe
+Prepare -down-> pipe
+Explore -down-> viz
+Explore -down-> insight
+Model -down-> model
+Deliver -right-> slides
+
+db -right-> pipe
+pipe -up-> viz
+pipe -up-> insight
+pipe -up-> model
+viz -up-> slides
+insight -up-> slides
+insight -up-> model
+model -up-> slides
+
+@enduml
+
+PlantUML version 1.2020.07(Sun Apr 19 06:42:40 CDT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_212-b03
+Operating System: Mac OS X
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
