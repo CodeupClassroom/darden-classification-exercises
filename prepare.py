@@ -1,36 +1,96 @@
 import pandas as pd
 import numpy as np
+
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 
-def clean_titanic_data():
-    '''
-    This function will drop any duplicate observations, 
-    drop columns not needed, fill missing embarktown with 'Southampton'
-    and create dummy vars of sex and embark_town. 
-    '''
-    df.drop_duplicates(inplace=True)
-    df.drop(columns=['deck', 'embarked', 'class', 'age'], inplace=True)
-    df.embark_town.fillna(value='Southampton', inplace=True)
-    dummy_df = pd.get_dummies(df[['sex', 'embark_town']], drop_first=True)
-    return pd.concat([df, dummy_df], axis=1)
+from darden_class_acquire import get_titanic_data, get_iris_data
 
-def impute_mode():
+###################### Prep Iris Data ######################
+
+def prep_iris(cached=True):
     '''
-    impute mode for embark_town
+    This function acquires and prepares the iris data from a local csv, default.
+    Passing cached=False acquires fresh data from Codeup db and writes to csv.
+    Returns the iris df with dummy variables encoding species.
     '''
-    imputer = SimpleImputer(strategy='most_frequent')
-    train[['embark_town']] = imputer.fit_transform(train[['embark_town']])
-    validate[['embark_town']] = imputer.transform(validate[['embark_town']])
-    test[['embark_town']] = imputer.transform(test[['embark_town']])
+    
+    # use my aquire function to read data into a df from a csv file
+    df = get_iris_data(cached)
+    
+    # drop and rename columns
+    df = df.drop(columns='species_id').rename(columns={'species_name': 'species'})
+    
+    # create dummy columns for species
+    species_dummies = pd.get_dummies(df.species, drop_first=True)
+    
+    # add dummy columns to df
+    df = pd.concat([df, species_dummies], axis=1)
+    
+    return df
+
+###################### Prep Titanic Data ######################
+
+def titanic_split(df):
+    '''
+    This function performs split on titanic data, stratify survived.
+    Returns train, validate, and test dfs.
+    '''
+    train_validate, test = train_test_split(df, test_size=.2, 
+                                        random_state=123, 
+                                        stratify=df.survived)
+    train, validate = train_test_split(train_validate, test_size=.3, 
+                                   random_state=123, 
+                                   stratify=train_validate.survived)
     return train, validate, test
 
-def prep_titanic_data():
-    df = clean_titanic_data()
-    train_validate, test = train_test_split(df, test_size=.2, random_state=123, stratify=df.survived)
-    train, validate = train_test_split(train_validate, 
-                                       test_size=.3, 
-                                       random_state=123, 
-                                       stratify=train_validate.survived)
-    train, validate, test = impute_mode()
+
+
+def impute_mean_age(train, validate, test):
+    '''
+    This function imputes the mean of the age column into
+    observations with missing values.
+    Returns transformed train, validate, and test df.
+    '''
+    # create the imputer object with mean strategy
+    imputer = SimpleImputer(strategy = 'mean')
+    
+    # fit on and transform age column in train
+    train['age'] = imputer.fit_transform(train[['age']])
+    
+    # transform age column in validate
+    validate['age'] = imputer.transform(validate[['age']])
+    
+    # transform age column in test
+    test['age'] = imputer.transform(test[['age']])
+    
+    return train, validate, test
+
+
+def prep_titanic(cached=True):
+    '''
+    This function reads titanic data into a df from a csv file.
+    Returns prepped train, validate, and test dfs
+    '''
+    # use my acquire function to read data into a df from a csv file
+    df = get_titanic_data(cached)
+    
+    # drop rows where embarked/embark town are null values
+    df = df[~df.embarked.isnull()]
+    
+    # encode embarked using dummy columns
+    titanic_dummies = pd.get_dummies(df.embarked, drop_first=True)
+    
+    # join dummy columns back to df
+    df = pd.concat([df, titanic_dummies], axis=1)
+    
+    # drop the deck column
+    df = df.drop(columns='deck')
+    
+    # split data into train, validate, test dfs
+    train, validate, test = titanic_split(df)
+    
+    # impute mean of age into null values in age column
+    train, validate, test = impute_mean_age(train, validate, test)
+    
     return train, validate, test
