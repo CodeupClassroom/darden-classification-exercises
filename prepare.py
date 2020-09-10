@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 
-from darden_class_acquire import get_titanic_data, get_iris_data
+from acquire import get_titanic_data, get_iris_data
 
 ###################### Prep Iris Data ######################
 
