@@ -78,14 +78,14 @@ def prep_titanic(cached=True):
     # drop rows where embarked/embark town are null values
     df = df[~df.embarked.isnull()]
     
-    # encode embarked using dummy columns
-    titanic_dummies = pd.get_dummies(df.embarked, drop_first=True)
+    # encode embarked & sex using dummy columns
+    titanic_dummies = pd.get_dummies(df[['sex', 'embarked']], drop_first=True)
     
     # join dummy columns back to df
     df = pd.concat([df, titanic_dummies], axis=1)
     
     # drop the deck column
-    df = df.drop(columns='deck')
+    df = df.drop(columns=['passenger_id', 'deck', 'sex', 'embarked', 'class', 'embark_town'])
     
     # split data into train, validate, test dfs
     train, validate, test = titanic_split(df)
